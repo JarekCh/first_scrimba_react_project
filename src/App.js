@@ -1,12 +1,16 @@
 import React from 'react'
+import Info from './components/Info'
+import About from './components/About'
+import Interest from './components/Interest'
+import Footer from './components/Footer'
 
 function App() {
   return (
     <div className='container'> 
-        // info
-        // About
-        // Interest
-        // Footer
+        <Info />
+        <About />
+        <Interest />
+        <Footer />
     </div>
   )
 }
