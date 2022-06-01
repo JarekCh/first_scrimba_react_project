@@ -1,6 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;    
 }
+
+/* global */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container, .info__picture {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.container {
+    background-color: #1A1B21;
+    color: white;
+}
+
+/* Info */
+
+.info__container {
+    text-align: center;
+}
+
+.info__picture {
+    object-fit: cover;
+    width: 317px;
+    height: 317px;
+}
+
+.info__fullName {
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 21px;
+}
+
+.info__jobPossition {
+    color: #F3BF99;
+    font-size: 13px;
+    margin-top: 6px;    
+}
+
+.info__website {
+    font-size: 10px;
+    color: #F5F5F5;
+    margin-top: 9px;    
+}
+
+.info__btnContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;  
+}
+
+.info__btnContainer > button {
+    display: flex;
+    justify-content: center;
+    align-content: center;    
+    width: 115px;
+    padding: 9px 12px 9px 12px;
+    border-radius: 6px;
+    border: none;
+}
+
+.info__btnContainer > button > img {
+    width: 16px;
+    height: 16px;
+}
+
+.info__btnContainer > button > span {
+    margin-left: 8px;
+    font-size: 14px;
+}
+
+.info__mailBtn {
+    background-color: #FFFFFF;    
+}
+.info__mailBtn > img {
+    color: #1E1F26;
+    width: 16px;
+    height: 16px;
+}
+
+.info__mailBtn > span {
+    color: #374151;    
+}
+
+.info__linkedinBtn {
+    background-color: #5093E2;
+    color: #FFFFFF;
+}
+
+
 
