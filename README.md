@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+# First_scrimba_react_project
+
+The goal was to train react component pattern and practise html and css.
+
+# Used technologies:
+- React
+- CSS
+- HTML
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
