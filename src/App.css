@@ -13,17 +13,18 @@ body {
     display: flex;
     justify-content: center;
     align-content: center;
+    background-color: #F3BF99;
 }
 
-.container, .info__picture {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+.container, .info__picture, .footer {
+    border-radius: 10px;
 }
 
 .container {
     background-color: #1A1B21;
     color: white;
 }
+
 
 /* Info */
 
@@ -100,15 +101,48 @@ body {
     color: #FFFFFF;
 }
 
-.about__container {
-    margin: 33px 35px 27px 35px;
+.about__container, .interest__container  {    
     max-width: 247px;
 }
 
-.about__container > p {
+.about__container {
+    margin: 33px 35px 27px 35px;
+}
+
+.about__container > p, .interest__container > p {
     font-size: 10px;
     margin-top: 5px;
 }
+
+.interest__container {
+    margin: 0 35px 24px 35px;
+}
+
+.footer {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #161619;
+    gap: 24px;
+}
+
+.footer > button {
+    background: none;
+    border: none;
+    display: flex;
+    justify-items: center;
+    height: 24px;
+    width: 24;    
+}
+
+.info__btnContainer > button:hover, .footer > button:hover {
+    transition: all .5s ease-in-out;
+    transform: scale(1.1);    
+}
+
+
+
 
 
 
