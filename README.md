@@ -6,6 +6,7 @@ The goal was to train react component pattern and practise html and css.
 - React
 - CSS
 - HTML
+- Design based on provided Figma project
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
