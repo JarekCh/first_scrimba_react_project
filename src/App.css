@@ -100,5 +100,17 @@ body {
     color: #FFFFFF;
 }
 
+.about__container {
+    margin: 33px 35px 27px 35px;
+    max-width: 247px;
+}
+
+.about__container > p {
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+
+
 
 
